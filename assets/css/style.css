@@ -154,7 +154,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 35px;
+  max-height: 30px;
 }
 
 .header .logo-cal img {
@@ -357,7 +357,7 @@ h6 {
 .mobile-nav li:hover > a {
   color: #151515;
   text-decoration: none;
-  background: #ffc451;
+  background: #087c80;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -1378,6 +1378,11 @@ section {
 }
 
 .breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li h6 {
+  color: #087c80;
   padding-left: 10px;
 }
 
